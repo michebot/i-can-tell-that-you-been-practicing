@@ -1,7 +1,7 @@
 import unittest
 
 
-def reverse_list_in_place(lst):
+def reverse(lst):
 
     # initializing pointers
     left_idx = 0
@@ -26,8 +26,8 @@ def reverse_list_in_place(lst):
 
     return lst
 
-# print(reverse_list_in_place([1, 2, 3,]))
-# print(reverse_list_in_place([1, 2, 3, 4,]))
+# print(reverse([1, 2, 3,]))
+# print(reverse([1, 2, 3, 4,]))
 
 class Test(unittest.TestCase):
 
