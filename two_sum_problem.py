@@ -1,4 +1,4 @@
-def twoSum(arr, S):
+def two_sum(arr, S):
 
   sums = []
   hashTable = {}
@@ -21,4 +21,4 @@ def twoSum(arr, S):
   # return all pairs of integers that sum to S
   return sums
 
-print twoSum([3, 5, 2, -4, 8, 11], 7) 
+print(two_sum([3, 5, 2, -4, 8, 11], 7))

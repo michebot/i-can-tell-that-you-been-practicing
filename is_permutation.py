@@ -19,7 +19,7 @@ def is_a_permutation(s1, s2):
 
 # Tests
 def test_func(s1, s2):
-    print(f"{s1} {s2} {is_a_permutation(s1, s2)}")
+    print(f"{s1} {s2} {is_a_permutation(s1, s2)}")  
 
 test_func("cat", "tac")
 test_func("below", "elbow")
